@@ -327,7 +327,6 @@ body {
 .team-section {
   background-color: var(--color-cloud);
   padding: 120px 0;
-  margin-bottom: 120px;
 }
 
 .team-deskr {
@@ -397,7 +396,7 @@ body {
 }
 
 .section-five {
-  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .clients-list {
@@ -503,6 +502,10 @@ body {
   fill: var(--color-cloud);
   background-color: var(--color-green);
   border-radius: 50%;
+}
+
+.social-icon {
+  fill: var(--color-cloud);
 }
 
 .footer-text {
