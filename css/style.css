@@ -233,10 +233,14 @@ body {
   background-color: var(--color-ocean);
 }
 
-.feature-icon {
+.feature-svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 112px;
+  background-color: var(--color-cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .features-title {
@@ -327,7 +331,7 @@ body {
 }
 
 .team-deskr {
-  padding: 32px 16px 0 32px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -361,8 +365,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   fill: var(--color-cloud);
   background-color: var(--color-iris);
   border-radius: 50%;
