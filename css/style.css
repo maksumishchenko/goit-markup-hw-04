@@ -233,6 +233,12 @@ body {
   background-color: var(--color-ocean);
 }
 
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .features-title {
   letter-spacing: 0.02em;
 }
@@ -369,8 +375,16 @@ body {
 }
 
 .title-cust {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   margin: 0 auto;
   margin-bottom: 72px;
+  color: var(--color-navy-blue);
 }
 
 .clients-list {
@@ -388,6 +402,16 @@ body {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--color-ocean);
+  color: var(--color-ocean);
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 /* FOOTER */
@@ -414,6 +438,15 @@ body {
 
 .second-logo {
   color: #f4f4fd;
+}
+
+.footer-par {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
 }
 
 .footer-list {
